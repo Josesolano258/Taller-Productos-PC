@@ -26,3 +26,31 @@ th, td {
     border: 1px solid #ddd;
 }
 
+/* Fila impar - gris claro */
+tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+/* Fila par - gris oscuro */
+tr:nth-child(even) {
+    background-color: #dcdcdc;
+}
+
+/* Efecto al pasar el mouse */
+tr:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+}
